@@ -13,48 +13,28 @@ import java.util.Scanner;
 
 public class OgrenciBilgi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
-        
-        // Kullanicidan bilgileri alin
-        System.out.println("=== OGRENCI BILGI SISTEMI ===");
-        System.out.println();
-        
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
 
-        
-        
-        // Scanner'i kapatin (önemli pratik)
+        Scanner scanner= new Scanner(System.in);
+		System.out.println("Lutfnen adinizi giriniz");
+		String ad=scanner.nextLine();
+		System.out.println("Lütfen soyadınızı giriniz");
+		String soyad=scanner.nextLine();
+		System.out.println("Lütfen öğrenci numaranızı giriniz");
+		String numara=scanner.nextLine();
+		System.out.println("Lütfen yaşınızı giriniz");
+		int yas=scanner.nextInt();
+		System.out.println("Lütfen GPA - Not Ortalama'nızı giriniz ");
+		double ortalama=scanner.nextDouble();
+		
+		System.out.println("======= OGRENCI BILGI SISTEMI =======");
+		System.out.println("	    Öğrencin adı	 :"+ ad);
+		System.out.println("	    Öğrencini soyadı :"+ soyad);
+		System.out.println("		Öğrencini numarası:"+ numara);
+		System.out.println("		Öğrencini yaşı   :"+yas);
+		System.out.printf("		Öğrencini GPA - Not Ortalaması:  %.2f ",ortalama);
+		System.out.println("======= OGRENCI BILGI SISTEMI =======");
+
+        scanner.close();
         
     }
 }
