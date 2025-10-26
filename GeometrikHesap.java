@@ -3,6 +3,7 @@
 * Ogrenci No: [250542021]
 * Tarih: [26/10/2025]
 * Aciklama: [Geometrikhesap]
+*Bu programda bir dairenin alanını,çevresini,hacmini,yüzey alanını hesaplayan bir program yazılmış durumdadır
 */
 
 
