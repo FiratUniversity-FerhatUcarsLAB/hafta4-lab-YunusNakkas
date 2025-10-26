@@ -1,3 +1,9 @@
+/*
+* Ad Soyad: [Yunus Emre Nakkaş]
+* Ogrenci No: [250542021]
+* Tarih: [26/10/2025]
+* Aciklama: [MaasHesap]
+*/
 package odeva;
 
 import java.util.Scanner;
