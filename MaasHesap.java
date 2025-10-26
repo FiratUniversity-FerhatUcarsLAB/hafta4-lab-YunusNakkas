@@ -3,6 +3,8 @@
 * Ogrenci No: [250542021]
 * Tarih: [26/10/2025]
 * Aciklama: [MaasHesap]
+*Bu programda çalışanın aylık brüt  maaşından gelir vergilerini düşürdüğümüzde kalan net maaşını veren program
+
 */
 package odeva;
 
